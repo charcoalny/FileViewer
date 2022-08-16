@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="107.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.demo.fileviewer.DirectoryPromptController">
+    <children>
+        <TextField fx:id="directory" layoutX="24.0" layoutY="42.0" prefHeight="23.0" prefWidth="559.0" />
+        <Button layoutX="273.0" layoutY="70.0" mnemonicParsing="false" onAction="#submitDirectory" text="Confirm" />
+        <Button layoutX="149.0" layoutY="70.0" mnemonicParsing="false" onAction="#showFileChooser" prefHeight="23.0" prefWidth="107.0" text="Choose File" />
+      <Button layoutX="353.0" layoutY="70.0" mnemonicParsing="false" onAction="#cancel" text="Cancel" />
+    </children>
+</AnchorPane>
